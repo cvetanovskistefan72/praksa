@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+/*BodyDark*/
+body{
+  background-color: white;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#nav2{
+  height:40px;
+}
+#nav2 li{
+  display:inline-block;
+  padding-right: 15px;
+  font-weight: 500;
+  
+}
+
+#nav2 ul{
+ margin-top: 10px;
+ height: 20px;
+}
+#nav2 a{
+  color: white;
+}
+#Dashboard{
+  margin-top: 20px;
+}
+ 
+#clientList{
+  
+}
+
+.client-details{
+  font-size: 13px;
+}
+.RightDashboard{
+  padding: 20px;
+  border: 1px solid lightgray;
+ 
+}
+.ClientNameHeader{
+  margin-top: 0px;
+}
+.info{
+  font-size: 10px;
+
+}
+.given{
+  margin-top: -10px;
+  font-weight: 500;
+}
+#ClientRow1{
+  margin-top: -10px;
+}
+#ClientRow2{
+  margin-top: -20px;
+}
+#ClientRow3{
+  margin-top: -20px;
+}
+#NotesRow{
+  margin-top: -30px;
+}
+.collection-item:hover{
+  cursor: pointer;
+  background-color: rgb(235, 235, 235)!important;
+}
+.AddSearchClient{
+   border: 1px solid lightgrey;
+   padding: 20px;
+}
+.AddClient{
+  margin-top: 50px;
+  padding: 50px;
+}
+#SearchButton{
+  width: 100%;
+}
+
+.lightThemeBody{
+  background-color: white;
+}
+.darkThemeBody{
+  background-color: #212121;
+}
+.lightTheme{
+  background-color: #fafafa ;
+}
+.darkTheme{
+  background-color: #353535  ;
+  color: white;
+}
+
+
